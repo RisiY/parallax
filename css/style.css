@@ -72,14 +72,14 @@ body {
     padding: 0px 20px;
 }
 .content_title {
-    font-style: 500px;
+    font-size: 100px;
     }
 .content_subtitle {
-    font-style: 120px;
+    font-size: 35px;
 }
 .content_article {
-    background-color:rgba(255,255,255,0.5);
+    background-color:rgba(255, 255, 255, 0.397);
     padding: 25px;
-    font-style: 18px;
+    font-size: 18px;
     line-height: 24px;
 }
