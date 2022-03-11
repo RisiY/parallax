@@ -17,12 +17,14 @@ $(document).ready(function() {
         var z_2=1+(w/5000000*p);
     $('.parallax_mountain_1').css('transform','scale('+z_2+')');
 
-        var hr=w/2000*p_b;
-        var z_3=1+(w*0.000005*p_b);
-    $('.parallax_mountain_2').css('transform','translate3d('+hr+'px,0,0)','scale('+z_3+')');
+        var hr=w/200*p_b;
+        var z_3=1+(w*0.00005*p_b);
+        var flor2 = hr
+    $('.parallax_mountain_2').css('transform','translate3d('+hr+'px,'+hr+'px,0)','scale('+z_3+')');
 
-        var hr_2=-(w/1500*p_b);
-        var z_4=1+(w*0.00001*p_b);
-    $('.parallax_mountain_3').css('transform','translate3d('+hr_2+'px,0,0)','scale('+z_4+')');
+        var hr_2=-(w/150*p_b);
+        var z_4=(1+(w*0.00000000000001*p_b))*2;
+        var floor3 = -hr_2
+    $('.parallax_mountain_3').css('transform','translate3d('+hr_2+'px,'+floor3+'px,0)','scale('+z_4+')');
     });
 });
